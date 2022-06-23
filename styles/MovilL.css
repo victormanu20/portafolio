@@ -1,0 +1,27 @@
+.header-main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    padding:12px 8px;
+}
+.header-main__nav-section ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+#contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#contacto i{	
+	font-size: calc(var(--title) * 7.0);	
+	color: #f5f5eb;	
+	display: flex;		
+	justify-content: center;	
+	align-items: center;	
+}

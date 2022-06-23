@@ -1,0 +1,24 @@
+:root{
+    --text:2rem;
+    --subtitle:2.8rem;
+    --title:3.2rem;
+
+}
+
+.inicio__photo{
+    width: 450px;
+    height: 500px;
+}
+.social-media__item img{
+    width: 55px;
+    height: 55px;
+}
+
+#contacto i{	
+	font-size: calc(var(--title) * 12.0);	
+	color: #f5f5eb;	
+	display: flex;		
+	justify-content: center;	
+	align-items: center;	
+}
+
