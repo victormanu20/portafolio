@@ -1,0 +1,18 @@
+.container-main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#arrow-up{
+    z-index: 4;
+    position: fixed;
+    color: white;
+    font-size: var(--title);
+    background-color: #2C4456;
+    border-radius: 6px;
+    padding: 4px 8px;
+    right: 40px;
+    bottom: 60px;
+}
