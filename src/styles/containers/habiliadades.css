@@ -1,0 +1,76 @@
+/* HABILIDADES */
+#habilidades{
+    padding: 2rem 4rem 1rem;
+    padding-left: 5%;    
+	background-color: #343233;
+    font-family: var(--open-sans);	
+}
+#habilidades i{	
+	font-size: var(--subtitle);	
+	background-color: #4F4B4B;
+	border-radius: 6px;	
+	margin-right: 1rem;
+	padding: 0.25rem;
+	color: var(--celeste-claro);		
+}
+
+#habilidades h1{
+	font-family: var(--montserrat);		
+	line-height: 2.5rem;	
+	color: var(--blanco-gris2);	
+	font-size: var(--title);
+	margin-bottom: 2rem;		
+}
+
+#habilidades h2{	
+	margin-top: 0;
+	margin-bottom: 0.25em;
+	font-weight: 500;
+	font-size: var(--subtitle);
+	color: var(--celeste-claro);	
+}
+
+
+#habilidades ul{
+	margin: 1rem 0 2rem;	
+}
+
+
+#habilidades ul li{	
+	margin-left: 3rem;
+	font-weight: 300;
+	font-size: var(--text);	
+	color: navajowhite;
+	font-family: 'Lato', sans-serif;	
+	line-height: 1.5;
+	text-rendering: optimizeLegibility;		
+}
+.curriculum{
+    display: flex;
+    width: calc(var(--title) + 24rem);
+    height: calc(var(--title) + 4rem);
+    margin: 50px auto;
+    padding: 2rem;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8AF75;
+}
+
+.curriculum a{
+    color: var(--blanco-gris2);
+    font-size: var(--subtitle);
+    font-weight: bold;
+}
+.curriculum a span{
+    margin-left: 4px;
+}
+.curriculum:hover{
+    cursor: pointer;
+    border: 2px solid var(--celeste-claro);
+    background-color:var(--blanco-gris2);
+
+}
+.curriculum:hover a{
+    color: #F8AF75;
+}
